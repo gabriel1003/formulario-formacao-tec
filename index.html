@@ -11,14 +11,15 @@
     <script type="text/javascript" src="validacao.js"></script>
 </head>
 <body>
-    <header></header>
     <form action="" class="container" method="GET" onsubmit="envioCPF()">
     
         <div class="titulo">
             <h1>
                 Cadastro pessoal
             </h1>
-            <p> Faça seu cadastro pessoal para abrir sua conta.</p>
+            <p> Faça seu cadastro pessoal para abrir sua conta.
+
+            </p>
         </div><hr><br>
         <div class="campo">
             <label for="nome">
@@ -27,7 +28,7 @@
             <input type="text" class="nome" id="nome"placeholder="escreva seu nome completo" required>
 
         </div>
-<br>        <hr>
+    <br>        <hr>
             <fieldset class="grupoId">
                 <div class="campo">
                     <div id="aliEmogiCPF">
@@ -83,8 +84,6 @@
         </div>
     </fieldset><hr>
     <fieldset class="grupoEnd1">
-
-    
         <div class="campo">
             <label for="bairro">
                 Bairro
@@ -98,7 +97,6 @@
                 Cidade
             </label>
             <input type="text" name="cidade" id="cidade" placeholder="Escreva sua cidade">
-
         </div>
         <div class="campo">
             <label for="estado">
@@ -108,7 +106,7 @@
                 <option selected disabled value="">
                     Selecione
                 </option>
-                <option value="AC">Acre</option>
+                            <option value="AC">Acre</option>
                             <option value="AL">Alagoas</option>
                             <option value="AP">Amapá</option>
                             <option value="AM">Amazonas</option>
@@ -134,9 +132,7 @@
                             <option value="SC">Santa Catarina</option>
                             <option value="SP">São Paulo</option>
                             <option value="SE">Sergipe</option>
-                            <option value="TO">
-                                Tocantins
-                            </option>
+                            <option value="TO">Tocantins</option>
             </select>
         </div>
         <div>
@@ -150,7 +146,6 @@
             <div class="campo">
                 <label for="fixo">
                     Telefone fixo
-                
                 </label>
                 <input type="text" name="fixo" id="fixo" placeholder="(xxx) xxxx-xxxx">
             </div>
@@ -161,7 +156,6 @@
                 <input type="text" name="cel" id="cel" placeholder="(xxx) xxxxx-xxxx" required>
             </div>
         </fieldset>
-
             <hr><br>
             <div>
                 <button class="botao" name="botao" id="botao"type="botao">
@@ -187,6 +181,5 @@
         </div>
     </div>
     </footer>
-
 </body>
 </html>
