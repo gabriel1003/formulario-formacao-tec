@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.titulo{
+padding: 10px;
+}
+
+
+header{
+    background-color: blue;
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: 150px;
+}
+
+.imagemLogo{
+    width: 100%;
+    height: 150px;
+}
+
+.imagemLogo img{
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.container{
+    margin-top: 60px;
+    background-color: lightgray;
+    box-shadow: rgb(0, 0, 0) 0px 4px 8px;
+    border-radius: 10px;
+    width: 67%;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    min-width: 500px;
+    max-width: 800px;
+}
+
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    color:rgb(16, 8, 122);
+}
+
+p{
+    
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+    color:rgb(16, 8, 122);
+}
+
+.rodape{
+    font-family: sans-serif;
+    background-color:rgb(102, 102, 102);
+    width: 100%;
+    height: 120px;
+    display:block;
+    padding-top: 60px;
+}
+
+.textoRodape{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 70%;
+    padding-top: 10px;
+}
+
+label{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+input, select{
+    background-color: rgb(238, 236, 232);
+    border-radius: 5px;
+    padding: 0.7em;
+    border: rgb(255, 132, 49) 2px solid;
+    margin-left: 20px;
+     margin-right: 20px;
+}
+
+input:hover, select:hover{
+    background-color: rgb(151, 151, 156);
+    border:rgb(25, 38, 218) 2px solid;
+    box-shadow: 1px 2px 4px rgb(0, 0, 0);
+}
+
+fieldset{
+    border: 0;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom:20px ; 
+   
+}
+
+/*arrumando resp CPF*/
+div#alinharRespCPF{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+div#aliRespCPF{
+    display: flex;
+    float: right;
+    
+}
+div#aliEmogiCPF{display: flex;
+float: right;}
+
+
+input#cpf_digitado{
+    width: 100%;
+}
+p#RespCPF{
+    
+    width: 10px;
+}
+
+.grupoId{
+display: flex;
+  flex-wrap: wrap;
+}
+.grupoId > div{
+    flex: 1 1 200px;
+}
+
+
+.grupoEnd{
+    display: flex;
+  flex-wrap: wrap;
+  
+}
+.grupoEnd > div{
+    flex: 1 1 200px;
+}
+
+
+.grupoLocalidade{ 
+    display: flex;
+  flex-wrap: wrap;
+}
+.grupoLocalidade > div{
+    flex: 1 1 200px;
+}
+
+
+.grupoContato{
+    display: flex;
+  flex-wrap: wrap;
+}
+.grupoContato > div{
+    flex: 1 1 200px;
+}
+
+.botao{
+    padding: 0.7em;
+    border-radius: 5px;
+    background-color: white;
+    border: rgb(27, 27, 27) 2px solid;
+    width: 150px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto ;
+    display: block;
+    
+}
+
+.botao {
+    width:  100px;
+}
+
+.botao:hover{
+    background: #0a2d8f;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0,2);
+    text-shadow: none;
+    border: rgb(255, 136, 0) 2px solid;
+    color: rgb(232, 255, 25);
+    font-weight: bold;
+}
+
+label{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.obrigatorio{
+    margin: auto;
+    width: 67%;
+    display: block;
+}
+
+a{
+    display: inline-block;
+    color:  rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+a:hover{
+    font-size: 20px;
+    color: rgb(9, 18, 105);
+}
+
+.campo{ 
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.campo > *{
+   flex: 1 1 100%;
+   
+}
+
+option{
+    font-weight: bold;
+    font-size: 20px;
+}
+
