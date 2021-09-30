@@ -98,14 +98,3 @@ function mascara_cpf(){
     }
 }
 
-
-/*
-function mascara_rg(){
-    var rg = document.getElementById('rg');
-    if(rg.value.length == 2 || rg.value.length == 6){
-       rg.value += '.';
-    }else if(rg.value.length == 10){
-       rg.value += '-';
-    }
-   }*/
-   
